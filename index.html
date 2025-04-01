@@ -16,8 +16,9 @@
 </head>
 
 <body>
-  <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-clear border-bottom">
+  <div class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-clear border-bottom d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
       <div class="container-fluid gx-5">
         <!-- Brand Logo -->
         <a class="navbar-brand" href="index.html">
@@ -32,85 +33,66 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav me-auto">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link" href="about.html">About Us</a>
+            <a class="nav-link" href="about.html">About</a>
             <a class="nav-link" href="menus.html">Menus</a>
             <a class="nav-link" href="takeaway.html">Takeaway</a>
-            <a class="nav-link" href="contact.html">Contact Us</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </div>
           <!-- Location text and book button -->
           <div class="d-flex align-items-center">
             <i class="bi bi-pin-map-fill me-2"></i>
             <span class="me-3">41 Bridge St, Taunton, TA1 1TP</span>
-            <a class="btn btn-outline-dark" href="book.html">Book a Table</a>
+            <a class="btn btn-outline-dark rounded-0" href="book.html">Book a Table</a>
           </div>
         </div>
       </div>
     </nav>
-
-
-  <!-- Hero -->
-  <div id="carouselExampleCaptions" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/skewer-house.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="assets/skewer-house.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="assets/skewer-house.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 
 
-  <!-- Footer -->
+  <!-- Banner -->
+  <div class="homeBanner">
+    <div class="container align-items-center">
+      <div class="row">
+        <div class="col-lg-5 col-12">
+          <div class="bg-dark bg-opacity-50 text-white" style="padding: 25px;">
+            <h1 class="display-5 fw-bold">Welcome to Skewer House, Taunton</h1>
+            <p>
+              The Skewer House, a slice of Madeira in Taunton serving "Espetadas", traditional Madeiran skewers.
+            </p>
+            <a href="book.html" class="btn btn-light px-4 rounded-0">Book a Table</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+
+    <!-- Footer -->
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center px-3">
         <span class="mb-3 mb-md-0 text-body-secondary">© 2025, calzzen web solutions</span>
       </div>
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex px-3">
-        <li class="ms-3"><a class="text-body-secondary" href="https://x.com/SkewerTaunton"><i class="bi bi-twitter" style="font-size: 24px;"></i></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/skewerhousetaunton/"><i class="bi bi-instagram" style="font-size: 24px;"></i></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/skewerhousetaunton/"><i class="bi bi-facebook" style="font-size: 24px;"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://x.com/SkewerTaunton"><i class="bi bi-twitter"
+              style="font-size: 24px;"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/skewerhousetaunton/"><i
+              class="bi bi-instagram" style="font-size: 24px;"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/skewerhousetaunton/"><i
+              class="bi bi-facebook" style="font-size: 24px;"></i></a></li>
       </ul>
     </footer>
 
 
-  <!-- Bootstrap JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <!-- Custom JavaScript -->
-  <script src="main.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    <script src="main.js"></script>
+  </div>
 </body>
 
 </html>
