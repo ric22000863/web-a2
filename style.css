@@ -33,4 +33,12 @@ body{
     width: 30vw;
   }
 
+  .menusBanner {
+    width: 100%;
+    height: 60vh;
+    background: url('assets/menusBanner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+  }
+
 
