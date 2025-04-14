@@ -41,4 +41,20 @@ body{
     align-items: center;
   }
 
+  .bookBanner {
+    width: 100%;
+    height: 60vh;
+    background: url('assets/bookBanner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+  }
+
+  .takeawayBanner {
+    width: 100%;
+    height: 60vh;
+    background: url('assets/takeawayBanner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+  }
+
 

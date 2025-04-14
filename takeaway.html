@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Book a Table</title>
+    <!-- Required Bootstrap meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS + Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <nav
+            class="navbar navbar-expand-lg bg-body-clear border-bottom d-flex flex-wrap justify-content-center mb-4 border-bottom">
+            <div class="container-fluid gx-5">
+                <!-- Brand Logo -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/navBarLogo.png" alt="Skewer House" height="70">
+                </a>
+                <!-- Mobile Dropdown Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar Page Links -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav me-auto">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="menus.html">Menus</a>
+                        <a class="nav-link active" href="takeaway.html">Takeaway</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </div>
+                    <!-- Location text and book button -->
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-pin-map-fill me-2"></i>
+                        <span class="me-3">41 Bridge St, Taunton, TA1 1TP</span>
+                        <a class="btn btn-outline-dark rounded-0" href="book.html">Book a Table</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Banner -->
+    <div class="takeawayBanner">
+        <div class="container align-items-center">
+            <div class="row">
+                <div class="col-lg-5 col-12">
+                    <div class="bg-dark bg-opacity-50 text-white" style="padding: 25px;">
+                        <h1 class="display-5 fw-bold">Welcome to Skewer House, Taunton</h1>
+                        <p>
+                            The Skewer House, a slice of Madeira in Taunton serving "Espetadas", traditional Madeiran
+                            skewers.
+                        </p>
+                        <a href="book.html" class="btn btn-light px-4 rounded-0">Book a Table</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container py-4 mt-4 border-top text-center">
+            <div class="row">
+                <!-- Food menu section -->
+                <div class="col-md-12">
+                    <h1 class="display-4">Takeaway Orders</h1>
+                    <p>Have a look at our fabulous takeaway boxes and place your order below.</p>
+                    <!-- Takeaway menu -->
+                    <p class="mt-4">
+                        <a class="btn btn-outline-dark rounded-0 btnMenu" data-bs-toggle="collapse" href="#takeawayMenu"
+                            role="button" aria-expanded="false" aria-controls="takeawayMenu">
+                            Takeaway Menu
+                        </a>
+                    </p>
+                    <div class="collapse" id="takeawayMenu">
+                        <div class="card card-body">
+
+                            <h5>Skewers</h5>
+                            <ul class="list-group list-group-flush mb-3">
+                                <li class="list-group-item d-flex justify-content-between">
+                                    <span>Lamb</span><span>£15.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between">
+                                    <span>Beef</span><span>£15.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between">
+                                    <span>Pork</span><span>£15.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Chicken
+                                        (Breast)</span><span>£15.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Chicken &
+                                        Chourico</span><span>£15.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>King
+                                        Prawns</span><span>£15.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>King Prawns &
+                                        Squid</span><span>£15.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>King Prawns &
+                                        Chourico</span><span>£15.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Mixed
+                                        Fish</span><span>£15.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Mixed Vegetables &
+                                        Halloumi</span><span>£15.00</span></li>
+                            </ul>
+
+                            <h5>Side Choices</h5>
+                            <ul class="list-group list-group-flush mb-3">
+                                <li class="list-group-item d-flex justify-content-between"><span>Portuguese Fried
+                                        Maize</span><span></span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Spicy
+                                        Rice</span><span></span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Corn on
+                                        Cob</span><span></span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Buttered
+                                        Greens</span><span></span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Skin on
+                                        Chips</span><span></span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Sweet Potato
+                                        Fries</span><span></span></li>
+                                <li class="list-group-item d-flex justify-content-between">
+                                    <span>Halloumi</span><span></span></li>
+                                <li class="list-group-item d-flex justify-content-between">
+                                    <span>Salad</span><span></span></li>
+                                <li class="list-group-item d-flex justify-content-between">
+                                    <span>Coleslaw</span><span></span></li>
+                            </ul>
+                            <small class="text-muted">All sides available as extras – £4.00 each</small>
+
+                            <h5 class="mt-4">Extras</h5>
+                            <ul class="list-group list-group-flush mb-3">
+                                <li class="list-group-item d-flex justify-content-between"><span>Flat
+                                        Bread</span><span>£6.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Flamed
+                                        Chourico</span><span>£7.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Marinated
+                                        Olives</span><span>£3.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Piri Sauce / Mint
+                                        Yoghurt</span><span>£2.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Piri Mayo / Garlic
+                                        Mayo</span><span>£2.00</span></li>
+                            </ul>
+
+                            <h5 class="mt-4">Sharer Starter</h5>
+                            <ul class="list-group list-group-flush mb-3">
+                                <li class="list-group-item d-flex justify-content-between">
+                                    <span>Flamed Chourico, Olives, Flat Bread w/ Garlic Butter</span><span>£14.00</span>
+                                </li>
+                            </ul>
+
+                            <h5 class="mt-4">Desserts</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between"><span>Homemade Cheesecake of
+                                        the Day</span><span>£7.00</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>Portuguese Custard
+                                        Tart</span><span>£2.50</span></li>
+                                <li class="list-group-item d-flex justify-content-between"><span>GF
+                                        Cheesecake</span><span>£7.00</span></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="container py-4 mt-4 border-top">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <h3 class="display-5 text-center">Place your Order</h3>
+                                <p class="text-center">
+                                    Order our takeaway boxes here to be collected in store every Tuesday, Wednesday and
+                                    Thursday.
+                                </p>
+                                <form>
+                                    <div class="row my-4 g-3">
+                                        <div class="col-md-6">
+                                            <label for="name" class="form-label">Full Name</label>
+                                            <input type="text" class="form-control rounded-0" id="name"
+                                                placeholder="Enter your name..." required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="phone" class="form-label">Phone Number</label>
+                                            <input type="tel" class="form-control rounded-0" id="phone"
+                                                placeholder="Enter your phone number..." required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="pickupTime" class="form-label">Pickup Time</label>
+                                            <input type="time" class="form-control rounded-0" id="pickupTime" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="pickupDate" class="form-label">Pickup Date</label>
+                                            <input type="date" class="form-control rounded-0" id="pickupDate" required>
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="orderItems" class="form-label">Order Details</label>
+                                            <textarea class="form-control rounded-0" id="orderItems" rows="4"
+                                                placeholder="List your items here..." required></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-outline-dark rounded-0 w-100">Submit
+                                                Order</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Footer -->
+                    <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 border-top">
+                        <div class="col-md-4 d-flex align-items-center px-3">
+                            <span class="mb-3 mb-md-0 text-body-secondary">© 2025, calzzen web solutions</span>
+                        </div>
+                        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex px-3">
+                            <li class="btn btn-outline-dark rounded-0" href="menus.html">Dark Mode</li>
+                            <li class="ms-3"><a class="text-body-secondary" href="https://x.com/SkewerTaunton"><i
+                                        class="bi bi-twitter-x" style="font-size: 24px;"></i></a></li>
+                            <li class="ms-3"><a class="text-body-secondary"
+                                    href="https://www.instagram.com/skewerhousetaunton/"><i class="bi bi-instagram"
+                                        style="font-size: 24px;"></i></a></li>
+                            <li class="ms-3"><a class="text-body-secondary"
+                                    href="https://www.facebook.com/skewerhousetaunton/"><i class="bi bi-facebook"
+                                        style="font-size: 24px;"></i></a></li>
+                        </ul>
+                    </footer>
+
+
+                    <!-- Bootstrap JavaScript -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                        crossorigin="anonymous"></script>
+                    <!-- Custom JavaScript -->
+                    <script src="main.js"></script>
+                </div>
+</body>
+
+</html>
