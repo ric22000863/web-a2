@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 350;
+}
+
+.homeBanner {
+    width: 100%;
+    height: 60vh;
+    background: url('assets/homeBanner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.contactBanner {
+    width: 100%;
+    height: 60vh;
+    background: url('assets/contactBanner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.aboutBanner {
+    width: 100%;
+    height: 60vh;
+    background: url('assets/aboutBanner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.btnMenu {
+    width: 30vw;
+}
+
+.menusBanner {
+    width: 100%;
+    height: 60vh;
+    background: url('assets/menusBanner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.bookBanner {
+    width: 100%;
+    height: 60vh;
+    background: url('assets/bookBanner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.takeawayBanner {
+    width: 100%;
+    height: 60vh;
+    background: url('assets/takeawayBanner.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.btn-outline-dark {
+    background-color: #f8f9fa;
+    color: #000;
+    border-color: #000;
+}
+
+.btn-outline-dark:hover {
+    background-color: #e2e6ea;
+    color: #000;
+    border-color: #000;
+}
