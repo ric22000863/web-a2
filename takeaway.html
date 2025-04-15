@@ -12,10 +12,10 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Custom CSS -->
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" id="theme">
 </head>
 
-<body>
+<body data-bs-theme="light">
     <div class="container">
         <!-- Navbar -->
         <nav
@@ -23,7 +23,7 @@
             <div class="container-fluid gx-5">
                 <!-- Brand Logo -->
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/navBarLogo.png" alt="Skewer House" height="70">
+                    <img src="assets/navBarLogo.png" alt="Skewer House" height="70" id="navBarLogo">
                 </a>
                 <!-- Mobile Dropdown Button -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -90,11 +90,14 @@
                             <h5>Skewers</h5>
                             <ul class="list-group list-group-flush mb-3">
                                 <li class="list-group-item d-flex justify-content-between">
-                                    <span>Lamb</span><span>£15.00</span></li>
+                                    <span>Lamb</span><span>£15.00</span>
+                                </li>
                                 <li class="list-group-item d-flex justify-content-between">
-                                    <span>Beef</span><span>£15.00</span></li>
+                                    <span>Beef</span><span>£15.00</span>
+                                </li>
                                 <li class="list-group-item d-flex justify-content-between">
-                                    <span>Pork</span><span>£15.00</span></li>
+                                    <span>Pork</span><span>£15.00</span>
+                                </li>
                                 <li class="list-group-item d-flex justify-content-between"><span>Chicken
                                         (Breast)</span><span>£15.00</span></li>
                                 <li class="list-group-item d-flex justify-content-between"><span>Chicken &
@@ -126,11 +129,14 @@
                                 <li class="list-group-item d-flex justify-content-between"><span>Sweet Potato
                                         Fries</span><span></span></li>
                                 <li class="list-group-item d-flex justify-content-between">
-                                    <span>Halloumi</span><span></span></li>
+                                    <span>Halloumi</span><span></span>
+                                </li>
                                 <li class="list-group-item d-flex justify-content-between">
-                                    <span>Salad</span><span></span></li>
+                                    <span>Salad</span><span></span>
+                                </li>
                                 <li class="list-group-item d-flex justify-content-between">
-                                    <span>Coleslaw</span><span></span></li>
+                                    <span>Coleslaw</span><span></span>
+                                </li>
                             </ul>
                             <small class="text-muted">All sides available as extras – £4.00 each</small>
 
@@ -217,7 +223,7 @@
                             <span class="mb-3 mb-md-0 text-body-secondary">© 2025, calzzen web solutions</span>
                         </div>
                         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex px-3">
-                            <li class="btn btn-outline-dark rounded-0" href="menus.html">Dark Mode</li>
+                            <li class="btn btn-outline-dark rounded-0" id="darkModeBtn" onclick="changeCSS()">Dark Mode</li>
                             <li class="ms-3"><a class="text-body-secondary" href="https://x.com/SkewerTaunton"><i
                                         class="bi bi-twitter-x" style="font-size: 24px;"></i></a></li>
                             <li class="ms-3"><a class="text-body-secondary"
