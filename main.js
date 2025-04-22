@@ -1,3 +1,5 @@
+// Creating the function to change the CSS file and the image of the nav bar logo
+// This function will be called when the user clicks the button to change the theme
 function changeCSS() {
     var theme = document.getElementById('theme');
     var themeName = theme.getAttribute('href');

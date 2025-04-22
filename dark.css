@@ -57,6 +57,7 @@ body {
     align-items: center;
 }
 
+/* Dark mode button styles */
 .btn-outline-dark {
     background-color: #f8f9fa;
     color: #000;
