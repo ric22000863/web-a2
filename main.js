@@ -31,3 +31,30 @@ if (savedTheme === 'dark') {
     document.body.setAttribute('data-bs-theme', 'light');
     navBarLogo.src = 'assets/navBarLogo.png';
 }
+
+// Gets form from its ID
+var orderForm = document.getElementById("orderForm");
+if (orderForm) {
+    orderForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevents default submission behaviour
+        alert("Order Submitted!"); // Displays this message in the alert when the form is submitted
+    });
+}
+
+// Gets form from its ID
+var bookingForm = document.getElementById("bookingForm");
+if (bookingForm) {
+    bookingForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevents default submission behaviour
+        alert("Booking Confirmed"); // Displays this message in the alert when the form is submitted
+    });
+}
+
+// Gets form from its ID
+var contactForm = document.getElementById("contactForm");
+if (contactForm) {
+    contactForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevents default submission behaviour
+        alert("Thank you for your feedback."); // Displays this message in the alert when the form is submitted
+    });
+}
